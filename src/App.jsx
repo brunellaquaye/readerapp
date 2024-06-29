@@ -1,19 +1,28 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './App.css';
+import Navbar from './components/common/Navbar';
+import HomePage from './components/pages/HomePage';
+import AboutPage from './components/pages/AboutPage';
+import TeamsPage from './components/pages/TeamsPage';
+import ContactPage from './components/pages/ContactPage';
+import AwstorePage from './components/pages/AwstorePage';
+import ServicesPage from './components/pages/ServicesPage';
 
 function App() {
 
   return (
-    <>
-     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-400">
-      <h1 className="text-4xl font-bold text-blue-500 mb-4">Hello, Tailwind CSS!</h1>
-      <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">
-        Click Me
-      </button>
-    </div>
- 
-
-    </>
+    <BrowserRouter>
+    <Navbar/>
+      <Routes>
+      <Route index element= {<HomePage/>}/>
+      <Route path="aboutPage" element = {<AboutPage/>}/>
+      <Route path= "teamsPage" element = {<TeamsPage/>}/>
+      <Route path ="contactPage" element = {<ContactPage/>}/>
+      <Route path = "awstore" element = {<AwstorePage/>}/>
+      <Route path = "servicesPage" element = {<ServicesPage/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
