@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/common/Navbar';
-import HomePage from './components/pages/HomePage';
-import AboutPage from './components/pages/AboutPage';
-import TeamsPage from './components/pages/TeamsPage';
-import ContactPage from './components/pages/ContactPage';
-import AwstorePage from './components/pages/AwstorePage';
-import ServicesPage from './components/pages/ServicesPage';
+import Navbar from './common/Navbar';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import TeamsPage from './pages/TeamsPage';
+import ContactPage from './pages/ContactPage';
+import AwstorePage from './pages/AwstorePage';
+import ServicesPage from './pages/ServicesPage';
 
 function App() {
 
