@@ -1,8 +1,7 @@
-
 import "../styleSheet/AwStore.css";
 import onboarding from "../../assets/Onboarding.png";
 import collection from "../../assets/bookCollection.png";
-import Button from "../components/Button";
+
 
 const AwStore = () => {
   return (
@@ -10,12 +9,7 @@ const AwStore = () => {
       <section className="flex justify-center bg-white p-2.5 max-w-[1000px] mx-auto my-4">
         <div className="w-full flex justify-between items-center">
           <h3 className="font-bold text-orange-500">ReaderApp</h3>
-          <Button
-            text="Download App"
-            textColor="white"
-            bgColor="#ff7200"
-            hoverColor="#ff5400"
-          />
+          <button className="download-button">Download App</button>
         </div>
       </section>
 
@@ -72,12 +66,8 @@ const AwStore = () => {
               profile, upload your artwork, and sell to buyers all over the
               world.
             </p>
-            <Button
-              text="Download App"
-              textColor="#ff7200"
-              bgColor="white"
-              hoverColor="#ffe0b2"
-            />
+            
+          <button className="download-button text-[#ff7200] bg-white hover:bg-[#ffe0b2]">Download App</button>
           </div>
         </div>
       </section>
@@ -87,12 +77,8 @@ const AwStore = () => {
           <h3>Get the App for Free and Start Now </h3>
         </div>
 
-        <Button
-          text="Download App"
-          textColor="white"
-          bgColor="#ff7200"
-          hoverColor="#ff5400"
-        />
+        
+        <button className="download-button">Download App</button>
       </section>
     </div>
   );

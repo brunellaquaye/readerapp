@@ -164,3 +164,16 @@
 .download-header {
   margin-bottom: 1rem;
 }
+
+.download-button {
+  background-color: #ff7200;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #ff5400;
+}
