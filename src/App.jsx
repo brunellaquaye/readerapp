@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
     <Navbar/>
       <Routes>
-      <Route index element= {<HomePage/>}/>
+      <Route index element= {<AwstorePage/>}/>
       <Route path="aboutPage" element = {<AboutPage/>}/>
       <Route path= "teamsPage" element = {<TeamsPage/>}/>
       <Route path ="contactPage" element = {<ContactPage/>}/>
