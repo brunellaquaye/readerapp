@@ -6,7 +6,7 @@ import ContactPage from './ContactPage'
 const HomePage = () => {
   return (
     <div>
-    <p></p>
+    <p>Welcome to our READERAPP!</p>
     {/* Add more pages if needed */}
     <AboutPage/>
     <TeamsPage/>
