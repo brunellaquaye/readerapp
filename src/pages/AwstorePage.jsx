@@ -8,7 +8,7 @@ const AwStore = () => {
     <div className="awstore-page">
       <section className="flex justify-center bg-white p-2.5 max-w-[1000px] mx-auto my-4">
         <div className="w-full flex justify-between items-center">
-          <h3 className="font-bold text-orange-500">ReaderApp</h3>
+          {/* <h3 className="font-bold text-orange-500">ReaderApp</h3> */}
           <button className="download-button">Download App</button>
         </div>
       </section>

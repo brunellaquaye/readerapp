@@ -7,20 +7,20 @@ import AboutPage from './pages/AboutPage';
 import TeamsPage from './pages/TeamsPage';
 import ContactPage from './pages/ContactPage';
 import AwstorePage from './pages/AwstorePage';
-import ServicesPage from './pages/ServicesPage';
+import NewsPage from './pages/NewsPage';
 
 function App() {
 
   return (
     <BrowserRouter>
     <Navbar/>
-      <Routes>
-      <Route index element= {<AwstorePage/>}/>
+      <Routes> 
+      <Route index element= {<HomePage/>}/>
       <Route path="aboutPage" element = {<AboutPage/>}/>
       <Route path= "teamsPage" element = {<TeamsPage/>}/>
       <Route path ="contactPage" element = {<ContactPage/>}/>
       <Route path = "awstore" element = {<AwstorePage/>}/>
-      <Route path = "servicesPage" element = {<ServicesPage/>}/>
+      <Route path = "NewsPage" element = {<NewsPage/>}/>
       </Routes>
     </BrowserRouter>
   )
