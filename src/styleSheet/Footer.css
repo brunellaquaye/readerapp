@@ -1,0 +1,109 @@
+.footerContainer {
+ flex-shrink: 0;
+  max-width:2000px;
+  /* background-color: #1f2937; */
+  padding: 40px; 
+}
+
+
+.footerCaption {
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: #ED7117;
+  margin-left: 30px;
+}
+
+.footerSectionsContainer { 
+  display: grid;
+  gap:2rem;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr)) ;
+  border-bottom: 2px solid white; 
+  min-height: 300px;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom:5px;
+}
+
+.aboutUsContainer, .subscribeContainer {
+  display: flex;
+  flex-direction: column;
+}
+.aboutUsContainer p , .informationContainer li,.helpfulLinksContainer li, .subscribeContainer p{
+  color:white;
+}
+.aboutUsContainer p{
+  width:300px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.headings {
+  font-weight: 700;
+  font-size: 21px;
+  color: #ED7117;
+}
+
+.informationContainer, .helpfulLinksContainer {
+  display: flex;
+  /* background-color: #0F0F0F; */
+  flex-direction: column;
+  align-items: left;
+  max-width: 300px;
+  min-height: 100px;
+  
+}
+
+.informationContainer li, .helpfulLinksContainer li{
+  list-style-type: none;
+  line-height: 40px;
+ margin-left: 20px;
+}
+
+.subscribeContainer{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.subscribeContainer form{
+  display: flex;
+  flex-direction: column;
+}
+.subscribeContainer input{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width:168.69px;
+ height: 41.09px;
+ border-radius: 6px;
+ text-align: center;
+ outline: none;
+}
+.subscribeContainer input::placeholder{
+  color:black;
+  font-weight: bold;
+}
+.subscribeContainer button{
+  width: 101.21px;
+  height: 31.42px;
+  border-radius: 6px;
+  background-color: #ED7117;
+  color:white;
+  font-size: 13px;
+  font-weight: bold;
+}
+.socialsContainer {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px; 
+}
+
+
+.iconContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.socialsIcon {
+  filter: brightness(0) saturate(100%) invert(36%) sepia(94%) saturate(600%) hue-rotate(-10deg) brightness(95%) contrast(90%);
+  width: 33.7px;
+  height: 29.62px;
+  margin-left: 15px;
+}
