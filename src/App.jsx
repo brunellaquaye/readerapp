@@ -8,6 +8,7 @@ import TeamsPage from './pages/TeamsPage';
 import ContactPage from './pages/ContactPage';
 import AwstorePage from './pages/AwstorePage';
 import NewsPage from './pages/NewsPage';
+import Footer from './common/Footer';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Route path = "awstore" element = {<AwstorePage/>}/>
       <Route path = "NewsPage" element = {<NewsPage/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }
