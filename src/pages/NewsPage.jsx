@@ -37,7 +37,7 @@ const NewsPage = () => {
     },
   ];
   return (
-    <div className="p-3 justify-center ">
+    <div className="isolate bg-acquablue px-6 py-24 sm:py-32 lg:px-8">
       <section className="justify-center">
         <div className=" opacity-2 backdrop-blur-xl rounded-lg p-6 m-6 shadow-xl">
           <p className="text-center text-sm tracking-widest">
@@ -87,6 +87,7 @@ const NewsPage = () => {
           ))}
         </div>
       </section>
+      
     </div>
   );
 };

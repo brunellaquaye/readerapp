@@ -4,35 +4,68 @@ import "../styleSheet/Footer.css";
 
 function Footer() {
   return (
-    <footer className="footerContainer bg-gray-950">
+    <footer className="footerContainer bg-[#1E1E1E] ">
       <div className="footerWrapper">
         <div className="footerCaptionContainer">
-          <h2 className="footerCaption">READERAPP</h2>
+          {/* <h2 className="footerCaption">READERAPP</h2> */}
         </div>
-        <section className="footerSectionsContainer">
-          <section className="aboutUsContainer">
+        <section className="footerSectionsContainer ">
+          <section className="aboutUsContainer  ">
             <div>
-              <h2 className="headings">About Us</h2>
+              <h2 className="headings  ">About Us</h2>
             </div>
-            <p className="ml-3">We bring the world of books and artwork to your doorslitia et explicabo maxime eaque dolor rem cum quibusdam officiis impedit corrupti cupiditate.</p>
+            <p className="bg-red-40 pr-6">
+              We bring the world of books and artwork to your doorslitia et
+              explicabo maxime eaque dolor rem cum quibusdam officiis impedit
+              corrupti cupiditate.
+            </p>
           </section>
           <section className="informationContainer">
             <h2 className="headings">Information</h2>
             <ul>
-              <li>About Us</li>
-              <li>News and Updates</li>
+              <li>
+                <a
+                  href="/aboutPage"
+                  className="text-white hover:text-orange-400 text-[12px]"
+                >
+                  About Us
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a
+                  href="/NewsPage"
+                  className="text-white hover:text-orange-400 text-[12px]"
+                >
+                  News and Updates
+                </a>
+              </li>
             </ul>
           </section>
           <section className="helpfulLinksContainer">
             <h2 className="headings">Helpful links</h2>
             <ul>
-              <li>Terms and Conditions</li>
+              <li>
+              <a
+                  href="/"
+                  className="text-white hover:text-orange-400 text-[12px]"
+                >
+                 Terms and Conditions
+                </a>
+              </li>
               {/* <li>Privacy</li> */}
-              <li>Chat with Us</li>
+              <li>
+              <a
+                  href="https://wa.link/ifefgv"
+                  className="text-white hover:text-orange-400 text-[12px]"
+                >
+                  Chat With Us
+                </a>
+              </li>
             </ul>
           </section>
-          <section className="subscribeContainer">
-            <p>Subscribe for More Info</p>
+          <section className="subscribeContainer ">
+            <p className="font-bold text-[13px]">Subscribe for More Info</p>
             <form>
               <input
                 type="email"
@@ -44,6 +77,7 @@ function Footer() {
             </form>
           </section>
         </section>
+
         <div className="socialsContainer">
           {socialMediaPlatforms.map((item) => (
             <div className="iconContainer">
