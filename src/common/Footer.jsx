@@ -15,9 +15,8 @@ function Footer() {
               <h2 className="headings  ">About Us</h2>
             </div>
             <p className="bg-red-40 pr-6">
-              We bring the world of books and artwork to your doorslitia et
-              explicabo maxime eaque dolor rem cum quibusdam officiis impedit
-              corrupti cupiditate.
+            Discover books and digital art on ReaderApp.
+            Explore our diverse collection of ebooks, digital art, and paintings, all in one place.
             </p>
           </section>
           <section className="informationContainer">
