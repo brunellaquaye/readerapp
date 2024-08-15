@@ -7,33 +7,36 @@ import Newshero from "../components/Newshero";
 
 const NewsPage = () => {
   const LatestNews = [
-    {
-      id: 1,
-      title: "Behind the Horror: Inspired By True Stories",
+
+    { id:1,
+      title: "Rising Voices: African Writers Platform Showcases New Wave of Literary Talent",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciend sed lquia.",
-      image: news,
+        "The African Writers Platform is highlighting emerging literary talent across the continent, offering a space for diverse voices and stories to reach a global audience.",
+        image: news,
     },
     {
-      id: 2,
-      title: "The Last of Us Part II",
+        id:2,
+      title: "New Voices Emerge on African Writers Platform",
+
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciend sed lquia.",
+        "The African Writers Platform is spotlighting fresh literary talent, offering readers a glimpse into the diverse stories and perspectives shaping the continent's future.",
       image: events,
     },
     {
-      id: 3,
-      title: "The Last of Us Part II",
+
+        id:3,
+      title: "Exploring the Literary Genius of Chimamanda Ngozi Adichie",
+
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciend sed lquia.",
+        "The African Writers Platform delves into the impactful work of Chimamanda Ngozi Adichie, celebrating her contributions to contemporary literature and her powerful voice in shaping African storytelling.",
       image: "../assets/events.jpeg",
     },
   ];
   const NewsData1 = [
     {
-      title: "Behind the Horror: Inspired By True Stories",
+      title: "Highlighting the Voices of African Fantasy Writers",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis asperiores porro hic autem sed laboriosam aperiam, id quod, voluptatibus minus, debitis quia.",
+        "The African Writers Platform shines a spotlight on the dynamic sub-community of African fantasy writers, celebrating their imaginative world-building and unique takes on the genre.",
       image: news,
     },
   ];

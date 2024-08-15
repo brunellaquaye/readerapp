@@ -12,10 +12,10 @@ const Newshero = () => {
         </div>
         <div className="">
           <p className="text-xl tracking-wider text-white text-center">
-            Behind the Covers: Inspired By True Stories
+          Exploring the Rich Tapestry of African Storytelling
           </p>
           <p className="text-[11px] tracking-wider text-white text-center">
-            35minutes ago by <b className="text-orange-500">Kareem Rashina</b>
+            35minutes ago by <b className="text-orange-500">Kwame Writes</b>
           </p>
         </div>
       </div>

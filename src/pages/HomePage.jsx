@@ -73,15 +73,16 @@ const HomePage = () => {
           />
         </div>
         <div className="aboutHeading">
-          <p style={{ textAlign: "left" }}>about</p>
+          <p style={{ textAlign: "left" }}>About</p>
           <p style={{ textAlign: "right" }}>us</p>
         </div>
         <div className="aboutContent">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            repudiandae deleniti ut labore totam at laborum ab laudantium
-            aliquam architecto, dolorem, voluptatibus rem doloribus est soluta
-            consequatur ratione et aperiam.
+          At ReaderApp, we believe in the power of stories to inspire, educate, and connect people.
+          Founded in 2018, our platform offers a vibrant marketplace where authors can showcase their work and readers can discover new voices.
+          With AwStore, our mobile app, we provide a unique space for book lovers to purchase, review, and engage directly with their favorite authors.
+          Whether you're an avid reader or an aspiring writer, ReaderApp is your gateway to a world of endless literary possibilities.
+          Join us on our mission to celebrate and share the written word.
           </p>
           <div className="learnMoreContainer">
             <div
