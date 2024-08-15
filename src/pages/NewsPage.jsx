@@ -41,7 +41,7 @@ const NewsPage = () => {
     },
   ];
   return (
-    <div className=" isolate px-6 py-24 bg-red-300 sm:py-36 md:px-28">
+    <div className=" isolate px-6 py-24 sm:py-36 md:px-28">
       <section className="justify-center ">
         <div className=" opacity-2 backdrop-blur-xl rounded-lg p-6 m-6 shadow-xl">
           <p className="text-center text-sm tracking-widest">

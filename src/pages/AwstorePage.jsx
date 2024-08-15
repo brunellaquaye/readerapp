@@ -5,7 +5,7 @@ import collection from "../../assets/bookCollection.png";
 
 const AwStore = () => {
   return (
-    <div className="awstore-page bg-green-300 px-6 py-6 lg:px-36 md:px-20">
+    <div className="awstore-page  px-6 py-6 lg:px-36 md:px-20">
       {/* <section className="flex justify-center bg-white p-2.5 max-w-[1000px] mx-auto my-4">
         <div className="w-full flex justify-between items-center">
          
