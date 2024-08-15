@@ -4,7 +4,7 @@ import event from "../assets/events.jpeg";
 const Newshero = () => {
   return (
     <div>
-      <div className="rounded-lg bg-slate-600 m-6 bg-cover"
+      <div className="rounded-lg bg-slate-600 m-6 bg-cover w-auto"
       style={{ backgroundImage: `url(${event})` }}>
         <div className="object-fill w-[310px] h-[280px] m-6 "
       >

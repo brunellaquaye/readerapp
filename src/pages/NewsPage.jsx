@@ -7,21 +7,22 @@ import Newshero from "../components/Newshero";
 
 const NewsPage = () => {
   const LatestNews = [
-    { id:1,
+    {
+      id: 1,
       title: "Behind the Horror: Inspired By True Stories",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciend sed lquia.",
-        image: news,
+      image: news,
     },
     {
-        id:2,
+      id: 2,
       title: "The Last of Us Part II",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciend sed lquia.",
       image: events,
     },
     {
-        id:3,
+      id: 3,
       title: "The Last of Us Part II",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciend sed lquia.",
@@ -37,25 +38,26 @@ const NewsPage = () => {
     },
   ];
   return (
-    <div className="isolate bg-acquablue px-6 py-24 sm:py-32 lg:px-8">
-      <section className="justify-center">
+    <div className=" isolate px-6 py-24 bg-red-300 sm:py-36 md:px-28">
+      <section className="justify-center ">
         <div className=" opacity-2 backdrop-blur-xl rounded-lg p-6 m-6 shadow-xl">
           <p className="text-center text-sm tracking-widest">
             WELCOME TO READERAPP
           </p>
           <p className="text-center text-2xl mt-3 tracking-tight">
-          Discover Insights, Updates, and Stories from the World of <b className="text-orange-600">READERAPP</b>!
+            Discover Insights, Updates, and Stories from the World of{" "}
+            <b className="text-orange-600">READERAPP</b>!
           </p>
         </div>
         <div className="flex p-6">
           <h1 className="text-3xl font-bold">News</h1>
         </div>
-        
+
         <Newshero />
       </section>
       <div className="flex p-6">
-          <h1 className="text-2xl font-bold">Trending</h1>
-        </div>
+        <h1 className="text-2xl font-bold">Trending</h1>
+      </div>
       <section>
         <div className="flex-row">
           {NewsData1.map((News) => (
@@ -67,7 +69,6 @@ const NewsPage = () => {
             />
           ))}
         </div>
-        
       </section>
       <section className="mt-4">
         <div className="flex justify-between">
@@ -87,7 +88,6 @@ const NewsPage = () => {
           ))}
         </div>
       </section>
-      
     </div>
   );
 };

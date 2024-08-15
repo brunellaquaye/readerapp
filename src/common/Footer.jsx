@@ -7,7 +7,7 @@ function Footer() {
     <footer className="footerContainer bg-[#1E1E1E] ">
       <div className="footerWrapper">
         <div className="footerCaptionContainer">
-          {/* <h2 className="footerCaption">READERAPP</h2> */}
+          <h2 className="footerCaption ">READERAPP</h2>
         </div>
         <section className="footerSectionsContainer ">
           <section className="aboutUsContainer  ">
@@ -79,16 +79,17 @@ function Footer() {
         </section>
 
         <div className="socialsContainer">
-          {socialMediaPlatforms.map((item) => (
-            <div className="iconContainer">
-              <img
+          
+            <div className="iconContainer text-white text-[11px]">
+            <p> 
+All rights reserved.</p>
+              {/* <img
                 className="socialsIcon"
                 key={item.id}
                 src={item.image}
                 alt={item.name}
-              />
+              /> */}
             </div>
-          ))}
         </div>
       </div>
     </footer>
