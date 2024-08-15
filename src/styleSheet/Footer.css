@@ -6,9 +6,11 @@
 
 .footerCaption {
   font-size: 25px;
-  letter-spacing: 5px;
+  /* letter-spacing: px; */
   color: #ed7117;
-  margin-left: 40px;
+  margin-left: 20px;
+  font-weight: 700;
+
 }
 
 .footerSectionsContainer {
