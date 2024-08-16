@@ -4,13 +4,19 @@ import collection from "../../assets/bookCollection.png";
 
 
 const AwStore = () => {
+  const playStoreUrl = "https://play.google.com/store";
   return (
     <div className="awstore-page">
       <section className="flex justify-center bg-white p-2.5 max-w-[1000px] mx-auto my-4">
         <div className="w-full flex justify-between items-center">
           <h3 className="font-bold text-orange-500">ReaderApp</h3>
-          <button className="download-button">Download App</button>
-        </div>
+          <a  href={playStoreUrl} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+       ><button 
+       className="download-button ">Download App</button>
+          </a>
+           </div>
       </section>
 
       <section className="hero-section">
@@ -66,8 +72,12 @@ const AwStore = () => {
               profile, upload your artwork, and sell to buyers all over the
               world.
             </p>
-            
-          <button className="download-button text-[#ff7200] bg-white hover:bg-[#ffe0b2]">Download App</button>
+            <a  href={playStoreUrl} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+       ><button 
+       className="download-button text-[#ff7200] bg-white hover:bg-[#ffe0b2] ">Download App</button>
+          </a>
           </div>
         </div>
       </section>
@@ -78,8 +88,12 @@ const AwStore = () => {
         </div>
 
         
-        <button className="download-button">Download App</button>
-      </section>
+        <a  href={playStoreUrl} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+       ><button 
+       className="download-button ">Download App</button>
+          </a> </section>
     </div>
   );
 };
