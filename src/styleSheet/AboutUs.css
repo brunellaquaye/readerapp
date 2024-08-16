@@ -1,0 +1,112 @@
+.AboutUsWrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+}
+
+.content{
+    flex: 1;
+    margin-bottom: 15%;
+    display: flex;
+    gap:10rem;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 5%;
+}
+.heroContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 820px;
+    min-height:500px ;
+    margin-left: 5%;
+    padding-right: 30px;
+}
+
+@media(max-width:700px){
+    .heroContainer{
+        margin-left: 2%;
+    }
+}
+
+.AboutContainer{
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top:40px;
+}
+.AboutContainer h2{
+    font-weight: bold;
+    font-size: 34px;
+}
+.ourMissionContainer,.ourServicesContainer,.ourVisionContainer{
+    min-width: 450px;
+    max-width: 600px;
+    min-height: 100px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.ourVisionContainer h3, .ourMissionContainer h3, .ourServicesContainer h3{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.ourVisionContainer p, .ourMissionContainer p , .ourServicesContainer p{
+font-size: 20px;
+padding-right: 30px;
+}
+
+
+
+.pageImageContainer{
+    max-width: 490px;
+    max-height: 700px;
+    
+}
+.pageImageContainer img{
+   max-width: 100%;
+   min-height: 100%;
+    border-radius: 41px;
+    object-fit: contain;
+    transform: rotate(1deg);
+    transition: transform 0.3 ease;
+}
+
+.pageImageContainer img:hover{
+    transform: rotate(0deg);
+}
+
+.getIntouchContainer{
+    margin-top: 50px;
+    position: relative;
+}
+.socialMediaContainer{
+    width: 300px;
+    border-bottom: 1px solid black;
+}
+
+.iconsAndTextContainer, .mailContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsAndTextContainer img, .mailContainer img{
+    margin-right: 20px;
+    width: 33.7px;
+    height: 29.62px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.iconsAndTextContainer p, .mailContainer p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.mailContainer{
+    margin-top: 5px;
+    margin-left: 40px;
+    width: 300px;
+}
