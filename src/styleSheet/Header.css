@@ -1,0 +1,57 @@
+.headerContainer{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+   align-items: center;
+   justify-content: space-between;
+   max-width: 1280px;
+   min-height: 80px;
+   margin-left: 15%;
+}
+ 
+@media(max-width:700px){
+    .headerContainer{
+        margin-left: 3%;
+    }
+}
+
+.headerContainer p{
+    font-weight: 700;
+    font-size: 34px;
+    color:#ED7117;
+   
+}
+
+.buttonAndImageContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    min-height: 80px;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+.buttonContainer{
+max-width: 350px;
+min-height: 50px;
+margin-top: 10px;
+}
+.buttonContainer button{
+    width: 140px;
+    height: 80%;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    background-color: #ED7117;
+    color:white;
+    border-radius: 30px;
+    border:none;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.headerContainer img{
+    max-width: 40px;
+    margin-left: 20px;
+}
