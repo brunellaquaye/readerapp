@@ -8,6 +8,7 @@ import TeamsPage from './pages/TeamsPage';
 import ContactPage from './pages/ContactPage';
 import AwstorePage from './pages/AwstorePage';
 import ServicesPage from './pages/ServicesPage';
+import { Terms } from './pages/TermsPage';
 
 function App() {
 
@@ -15,12 +16,13 @@ function App() {
     <BrowserRouter>
     <Navbar/>
       <Routes>
-      <Route index element= {<AwstorePage/>}/>
+      <Route index element= {<Terms/>}/>
       <Route path="aboutPage" element = {<AboutPage/>}/>
       <Route path= "teamsPage" element = {<TeamsPage/>}/>
       <Route path ="contactPage" element = {<ContactPage/>}/>
       <Route path = "awstore" element = {<AwstorePage/>}/>
       <Route path = "servicesPage" element = {<ServicesPage/>}/>
+      <Route path = "terms" element = {<Terms/>}/>
       </Routes>
     </BrowserRouter>
   )
