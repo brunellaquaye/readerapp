@@ -1,6 +1,7 @@
 import React from "react";
 import { socialMediaPlatforms } from "../Data/SocialMedia";
 import "../styleSheet/Footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -23,21 +24,20 @@ function Footer() {
             <h2 className="headings">Information</h2>
             <ul>
               <li>
-                <a
-                  href="/aboutPage"
+                <Link
+                  to="/aboutPage"
                   className="text-white hover:text-orange-400 text-[12px]"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
                 {" "}
-                <a
-                  href="/NewsPage"
+                <Link to="/NewsPage"
                   className="text-white hover:text-orange-400 text-[12px]"
                 >
                   News and Updates
-                </a>
+                </Link>
               </li>
             </ul>
           </section>
@@ -45,12 +45,12 @@ function Footer() {
             <h2 className="headings">Helpful links</h2>
             <ul>
               <li>
-              <a
-                  href="/"
+              <Link
+                  to="/"
                   className="text-white hover:text-orange-400 text-[12px]"
                 >
                  Terms and Conditions
-                </a>
+                </Link>
               </li>
               {/* <li>Privacy</li> */}
               <li>
