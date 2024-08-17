@@ -9,6 +9,7 @@ import ContactPage from './pages/ContactPage';
 import AwstorePage from './pages/AwstorePage';
 import NewsPage from './pages/NewsPage';
 import Footer from './common/Footer';
+import { Terms } from './pages/Terms';
 
 function App() {
 
@@ -22,6 +23,8 @@ function App() {
       <Route path ="contactPage" element = {<ContactPage/>}/>
       <Route path = "awstore" element = {<AwstorePage/>}/>
       <Route path = "NewsPage" element = {<NewsPage/>}/>
+      <Route path = "Terms" element = {<Terms/>}/>
+
       </Routes>
       <Footer/>
     </BrowserRouter>

@@ -47,7 +47,7 @@ function Footer() {
             <ul>
               <li>
               <Link
-                  to="/"
+                  to="/Terms"
                   className="text-white hover:text-orange-400 text-[12px]"
                 >
                  Terms and Conditions
