@@ -9,7 +9,6 @@ import ServicesPage from './pages/ServicesPage';
 import { Terms } from './pages/TermsPage';
 
 function App() {
-
   return (
     <BrowserRouter>
     <Navbar/>
