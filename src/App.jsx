@@ -1,8 +1,6 @@
-import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './common/Navbar';
-import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import TeamsPage from './pages/TeamsPage';
 import ContactPage from './pages/ContactPage';
