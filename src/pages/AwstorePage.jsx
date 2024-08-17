@@ -6,19 +6,7 @@ import collection from "../../assets/bookCollection.png";
 const AwStore = () => {
   const playStoreUrl = "https://play.google.com/store";
   return (
-    <div className="awstore-page">
-      <section className="flex justify-center bg-white p-2.5 max-w-[1000px] mx-auto my-4">
-        <div className="w-full flex justify-between items-center">
-          <h3 className="font-bold text-orange-500">ReaderApp</h3>
-          <a  href={playStoreUrl} 
-          target="_blank" 
-          rel="noopener noreferrer" 
-       ><button 
-       className="download-button ">Download App</button>
-          </a>
-           </div>
-      </section>
-
+    <div className="awstore-page  px-6 py-6 lg:px-36 md:px-20">
       <section className="hero-section">
         <div className="hero">
           <div className="hero-content">
