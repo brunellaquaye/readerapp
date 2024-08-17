@@ -1,9 +1,10 @@
 import React from "react";
-import hero from "../assets/hero.jpeg";
+import digievent from "../assets/digievent.jpeg";
 import news from "../assets/news.jpeg";
-import events from "../assets/events.jpeg";
+import digievent2 from "../assets/digievent2.jpeg";
 import Newscard from "../components/Newscard";
 import Newshero from "../components/Newshero";
+import eventer from "../assets/eventer.jpg";
 
 const NewsPage = () => {
   const LatestNews = [
@@ -12,7 +13,7 @@ const NewsPage = () => {
       title: "Rising Voices: African Writers Platform Showcases New Wave of Literary Talent",
       description:
         "The African Writers Platform is highlighting emerging literary talent across the continent, offering a space for diverse voices and stories to reach a global audience.",
-        image: news,
+        image: digievent,
     },
     {
         id:2,
@@ -20,7 +21,7 @@ const NewsPage = () => {
 
       description:
         "The African Writers Platform is spotlighting fresh literary talent, offering readers a glimpse into the diverse stories and perspectives shaping the continent's future.",
-      image: events,
+      image: digievent2,
     },
     {
 
@@ -29,7 +30,7 @@ const NewsPage = () => {
 
       description:
         "The African Writers Platform delves into the impactful work of Chimamanda Ngozi Adichie, celebrating her contributions to contemporary literature and her powerful voice in shaping African storytelling.",
-      image: "../assets/events.jpeg",
+      image: eventer,
     },
   ];
   const NewsData1 = [
@@ -41,7 +42,7 @@ const NewsPage = () => {
     },
   ];
   return (
-    <div className=" isolate px-6 py-24 sm:py-36 md:px-28">
+    <div className=" isolate px-6 py-24 sm:py-36 md:px-28 lg:px-32">
       <section className="justify-center ">
         <div className=" opacity-2 backdrop-blur-xl rounded-lg p-6 m-6 shadow-xl">
           <p className="text-center text-sm tracking-widest">
@@ -62,9 +63,10 @@ const NewsPage = () => {
         <h1 className="text-2xl font-bold">Trending</h1>
       </div>
       <section>
-        <div className="flex-row">
+        <div className="flex-row ">
           {NewsData1.map((News) => (
             <Newscard
+              className="h-24 w-24 p-2"
               key={NewsData1}
               image={News.image}
               title={News.title}
