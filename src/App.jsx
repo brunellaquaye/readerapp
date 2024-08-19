@@ -10,6 +10,7 @@ import AwstorePage from './pages/AwstorePage';
 import NewsPage from './pages/NewsPage';
 import Footer from './common/Footer';
 import { Terms } from './pages/Terms';
+import { Policy } from './pages/Policy';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Route path = "awstore" element = {<AwstorePage/>}/>
       <Route path = "NewsPage" element = {<NewsPage/>}/>
       <Route path = "Terms" element = {<Terms/>}/>
+      <Route path = "Policy" element = {<Policy/>}/>
 
       </Routes>
       <Footer/>
