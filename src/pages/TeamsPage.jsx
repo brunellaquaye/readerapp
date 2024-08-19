@@ -44,9 +44,10 @@ export default function TeamsPage() {
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
-        <div className="max-w-2xl bg-orange-500 p-6 rounded-md">
+      <div className="max-w-2xl bg-gray-50 border-orange-300 border-2 shadow-[7px_5px_0px_0px_rgba(234,88,12,0.55)] p-6 rounded-md">
+
           <h2 className="text-3xl font-bold tracking-tight text-black-300 sm:text-4xl">Our Team</h2>
-          <p className="mt-6 text-lg leading-8 text-black-600 font-bold italic">
+          <p className="mt-6 text-lg leading-8 text-black-600 font-bold ">
             Welcome to READERAPP! We present to you our formidable team of competent workers who are more than willing to help the public develop interest in books and reading in general.
           </p>
         </div>

@@ -1,6 +1,10 @@
-import React from 'react'
+import { useEffect } from 'react';
 
 const ContactPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="isolate  px-6 py-24 sm:py-32 lg:px-8">
     {/* <div

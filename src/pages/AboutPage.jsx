@@ -2,7 +2,15 @@ import "../styleSheet/AboutUs.css";
 import pageImage from "../assets/Rectangle 1022.png";
 import mailImage from "../assets/mail.png";
 import { socialMediaPlatforms } from "../Data/SocialMedia";
+import { useEffect } from "react";
 const AboutPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const handleCheckboxChange = () => {
+    setIsChecked(!isChecked);
+  };
   return (
     <div className="w-[90%] mx-auto">
       <div className="flex flex-col md:flex-row items-center justify-between">

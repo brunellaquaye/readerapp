@@ -5,8 +5,14 @@ import digievent2 from "../assets/digievent2.jpeg";
 import Newscard from "../components/Newscard";
 import Newshero from "../components/Newshero";
 import eventer from "../assets/eventer.jpg";
+import { useEffect } from "react";
 
 const NewsPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   const LatestNews = [
 
     { id:1,

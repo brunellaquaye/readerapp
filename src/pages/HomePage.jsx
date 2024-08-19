@@ -4,8 +4,12 @@ import firstImage from "../assets/Rectangle 1034.png";
 import secondImage from "../assets/Rectangle 1035.png";
 import thirdImage from "../assets/Rectangle 1036.png";
 import arrow1 from "../assets/Arrow 1.png";
+import arrow2 from "../assets/Arrow 2.png";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
+  const playStoreUrl = "https://play.google.com/store";
+  
   return (
     <div className="">
       <section className="overlayContainer">
@@ -42,18 +46,32 @@ const HomePage = () => {
             of endless literary possibilities. Join us on our mission to
             celebrate and share the written word.
           </p>
-          <div className="mt-10 border rounded-md bg-[#1e1e1e] text-white flex items-center gap-2 w-fit p-2 px-7 mx-auto">
+          <Link to="/aboutPage" className="text-white text-[12px]">
+          
+          <div className="mt-10 border rounded-md bg-[#1e1e1e] text-xl hover:text-orange-400  text-white flex items-center gap-2 w-fit p-2 px-7 mx-auto">
             <p>Learn More</p>
-            <span className="text-5xl h-14">&#8594;</span>{" "}
+            <span className="text-5xl h-14">&#8594;</span>
           </div>
+        </Link>
         </div>
       </section>
-      <section className="mb-10 border rounded-md bg-[#1e1e1e] text-3xl text-white flex flex-col items-center gap-2 w-fit p-4 px-7 mx-auto">
-        <p className="text-center">Let's discover something cool together</p>
-        <div className="flex items-center gap-3">
-          <p>Download Mobile app</p>
-          <img src={arrow1} alt="arrow to mobile app" />
-        </div>
+
+      <section
+        className="flex flex-col mx-auto items-center bg-black text-white p-6 mt-8 mb-4"
+        style={{ width: "80%" }}
+      >
+        <p className="text-4xl font-light">Let's discover something cool</p>
+        <a
+          href={playStoreUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cursor-pointer"
+        >
+          <div className="flex items-center gap-4 cursor-pointer mt-6 hover:text-orange-400">
+            <p className="text-2xl ">Download Mobile App</p>
+            <img src={arrow1} alt="arrow" className="w-10" />
+          </div>
+        </a>
       </section>
     </div>
   );
